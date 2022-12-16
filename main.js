@@ -2,6 +2,7 @@ document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked() {
   //input
+  document.getElementById("btn").addEventListener("click", btnClicked);
   let username1 = document.getElementById("username").value.toLowerCase();
   let password2 = document.getElementById("password").value.toLowerCase();
   console.log(username1);
@@ -12,8 +13,8 @@ if (password2 === "1234"){
 
 
 
- }
+ 
   //proccess
 
   //output
- }
+ 
