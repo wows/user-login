@@ -1,20 +1,16 @@
-document.getElementById("btn").addEventListener("click", btnClicked);
+// javascript code 
+document.getElementById("btn").addEventListener("click", btnclicked);
 
-function btnClicked() {
-  //input
-  document.getElementById("btn").addEventListener("click", btnClicked);
-  let username1 = document.getElementById("username").value.toLowerCase();
-  let password2 = document.getElementById("password").value.toLowerCase();
-  console.log(username1);
- if (username1 === "Admin" ){
-if (password2 === "1234"){
-    alert("login successful");
-} else {
+function btnclicked() {
+  let user = document.getElementById("user").value;
+  let pass = document.getElementById("pass").value;
+// if sloution
+if (user === "admin" && pass === "1234") {
+  alert("login succesful");
+} else if (user === "admin") {
+  alert("wrong password");
+} else{
+  alert("wrong username")
+}
 
-
-
- 
-  //proccess
-
-  //output
- 
+}
